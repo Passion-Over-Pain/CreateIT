@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C524FB3E-270D-4258-B884-B254FC5C260D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CreateTech</RootNamespace>
+    <AssemblyName>CreateTech</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Carbohydrates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carbohydrates.Designer.cs">
+      <DependentUpon>Carbohydrates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateIT.Designer.cs">
+      <DependentUpon>CreateIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dairy Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dairy Products.Designer.cs">
+      <DependentUpon>Dairy Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FatsandOils.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FatsandOils.Designer.cs">
+      <DependentUpon>FatsandOils.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits.Designer.cs">
+      <DependentUpon>Fruits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodCategory.Designer.cs">
+      <DependentUpon>FoodCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAccount.Designer.cs">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Protien.Designer.cs">
+      <DependentUpon>Protien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recipes.Designer.cs">
+      <DependentUpon>Recipes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shopping Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shopping Cart.Designer.cs">
+      <DependentUpon>Shopping Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vegetables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vegetables.Designer.cs">
+      <DependentUpon>Vegetables.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Carbohydrates.resx">
+      <DependentUpon>Carbohydrates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateIT.resx">
+      <DependentUpon>CreateIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dairy Products.resx">
+      <DependentUpon>Dairy Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FatsandOils.resx">
+      <DependentUpon>FatsandOils.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodCategory.resx">
+      <DependentUpon>FoodCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruits.resx">
+      <DependentUpon>Fruits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAccount.resx">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Protien.resx">
+      <DependentUpon>Protien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recipes.resx">
+      <DependentUpon>Recipes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shopping Cart.resx">
+      <DependentUpon>Shopping Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vegetables.resx">
+      <DependentUpon>Vegetables.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\closeeye-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Backbtn-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\load1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
