@@ -1,4 +1,0 @@
-Bread	Carbohyrdates	2 loaf	36
-Pasta	Carbohyrdates	3 packet	45
-Cereal	Carbohyrdates	1 packet	40
-Bread	Carbohyrdates	2 loaf	36
