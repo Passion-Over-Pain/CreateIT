@@ -56,5 +56,15 @@ Living costs are rising, food scarcity is becoming more prevalent, and time is a
 ### 🥒 Bon Appétit!
 CreateIT is more than just an app—it’s a digital companion for foodies who want to save money, reduce waste, and get inspired in the kitchen. 🍽️ Whether you're a student on a tight budget or someone who loves experimenting with ingredients, CreateIT offers a helping hand (and a tasty meal) every time.
 
+---
+
+<p align="center" style="font-family: 'Times New Roman', serif;">
+  <a href="https://dev.to/passionoverpain">Dev.to</a> |
+  <a href="mailto:tinomhedziso21@gmail.com">Email</a> |
+  <a href="https://github.com/Passion-Over-Pain">GitHub</a> |
+  <a href="https://www.linkedin.com/in/tinotenda-mhedziso/">LinkedIn</a> |
+  <a href="https://tinotenda-mhedziso.pages.dev/">Website</a>
+</p>
+
 
 
