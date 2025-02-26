@@ -56,6 +56,8 @@ Living costs are rising, food scarcity is becoming more prevalent, and time is a
 ### 🥒 Bon Appétit!
 CreateIT is more than just an app—it’s a digital companion for foodies who want to save money, reduce waste, and get inspired in the kitchen. 🍽️ Whether you're a student on a tight budget or someone who loves experimenting with ingredients, CreateIT offers a helping hand (and a tasty meal) every time.
 
+> [!Tip]
+> _Greatest failure in life is not falling: it's never taking that leap_.
 ---
 
 <p align="center" style="font-family: 'Times New Roman', serif;">
