@@ -1,0 +1,58 @@
+name: "📝 Software Review"
+description: "Share your feedback and experiences with this software!"
+title: "[Review]: CreateIT"
+labels: ["review", "feedback"]
+assignees:
+  - Passion-Over-Pain
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 📝 Software Review
+        Thank you for taking the time to review this software!  
+        Your feedback helps us improve and enhance the user experience.  
+        Please fill in the details below to provide a meaningful review.
+
+  - type: dropdown
+    id: rating
+    attributes:
+      label: "🌟 Overall Rating"
+      description: "How would you rate your experience with this software?"
+      options:
+        - ⭐⭐⭐⭐⭐ (Excellent)
+        - ⭐⭐⭐⭐ (Good)
+        - ⭐⭐⭐ (Average)
+        - ⭐⭐ (Needs Improvement)
+        - ⭐ (Poor)
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: "✅ What did you like about the software?"
+      description: "Tell us about the features or aspects that stood out to you."
+      placeholder: "E.g., The UI is intuitive, the software runs smoothly, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvements
+    attributes:
+      label: "⚡ What could be improved?"
+      description: "Share any issues, missing features, or improvements you’d like to see."
+      placeholder: "E.g., Add a dark mode, improve performance, etc."
+
+  - type: textarea
+    id: bugs
+    attributes:
+      label: "🐞 Did you encounter any bugs?"
+      description: "Describe any errors or unexpected behavior."
+      placeholder: "E.g., The app crashes when clicking X, incorrect display on mobile, etc."
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: "💡 Additional Suggestions or Comments"
+      description: "Any other feedback or ideas?"
+      placeholder: "E.g., I’d love to see an offline mode added."
