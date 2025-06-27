@@ -8,3 +8,13 @@ s223444731@mandela.ac.za,Nomboyo,Mnoneleli,Noni314,password,N,1
 s225477157@mandela.ac.za,Maimela,Mpho,Junior74,password,N,3
 s227252985@mandela.ac.za,Mtshawulane,Emihle,Emi1234,password,N,5
 s227918363@mandela.ac.za,Kani,Bulelani,Bulelani1234,password,N,6
+s227284240@mandela.ac.za,Mhedziso,Tinotenda,PassionOverPain,password,N,0
+s223444731@mandela.ac.za,Nomboyo,Mnoneleli,Noni314,password,N,1
+s225477157@mandela.ac.za,Maimela,Mpho,Junior74,password,N,3
+s227252985@mandela.ac.za,Mtshawulane,Emihle,Emi1234,password,N,5
+s227918363@mandela.ac.za,Kani,Bulelani,Bulelani1234,password,N,6
+s227284240@mandela.ac.za,Mhedziso,Tinotenda,PassionOverPain,password,N,0
+s223444731@mandela.ac.za,Nomboyo,Mnoneleli,Noni314,password,N,1
+s225477157@mandela.ac.za,Maimela,Mpho,Junior74,password,N,3
+s227252985@mandela.ac.za,Mtshawulane,Emihle,Emi1234,password,N,5
+s227918363@mandela.ac.za,Kani,Bulelani,Bulelani1234,password,N,6
