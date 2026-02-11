@@ -1,5 +1,7 @@
 ![CreateITbanner](https://github.com/user-attachments/assets/607938fe-ed22-4202-bc06-1f5090b5b875)
 
+<img width="448" height="318" alt="Zimkhitha" src="https://github.com/user-attachments/assets/11a336a7-a113-414b-9841-0915ef279263" />
+
 
 Living costs are rising, food scarcity is becoming more prevalent, and time is always in short supply. **CreateIT** was designed with a simple yet powerful goal: to help users save money on groceries by leveraging the ingredients they already have at hand. This mobile application prototype integrates with APIs to recommend meals based on available ingredients, offering a practical and delicious solution to everyday meal planning.
 
